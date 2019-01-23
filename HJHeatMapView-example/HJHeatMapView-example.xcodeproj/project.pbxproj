@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961C982221F4BA1F008E7995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C982121F4BA1F008E7995 /* AppDelegate.swift */; };
+		961C982421F4BA1F008E7995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C982321F4BA1F008E7995 /* ViewController.swift */; };
+		961C982721F4BA1F008E7995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961C982521F4BA1F008E7995 /* Main.storyboard */; };
+		961C982921F4BA20008E7995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961C982821F4BA20008E7995 /* Assets.xcassets */; };
+		961C982C21F4BA20008E7995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961C982A21F4BA20008E7995 /* LaunchScreen.storyboard */; };
+		961C983421F4BA5C008E7995 /* HJHeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C983321F4BA5C008E7995 /* HJHeatMapView.swift */; };
+		96ADEDA521F89684000130D1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96ADEDA421F89684000130D1 /* background.jpg */; };
+		96ADEDA721F897F4000130D1 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96ADEDA621F897F4000130D1 /* map.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		961C981E21F4BA1F008E7995 /* HJHeatMapView-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HJHeatMapView-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961C982121F4BA1F008E7995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		961C982321F4BA1F008E7995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		961C982621F4BA1F008E7995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		961C982821F4BA20008E7995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		961C982B21F4BA20008E7995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961C982D21F4BA20008E7995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961C983321F4BA5C008E7995 /* HJHeatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJHeatMapView.swift; sourceTree = "<group>"; };
+		96ADEDA421F89684000130D1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		96ADEDA621F897F4000130D1 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961C981B21F4BA1F008E7995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961C981521F4BA1F008E7995 = {
+			isa = PBXGroup;
+			children = (
+				961C982021F4BA1F008E7995 /* HJHeatMapView-example */,
+				961C981F21F4BA1F008E7995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961C981F21F4BA1F008E7995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961C981E21F4BA1F008E7995 /* HJHeatMapView-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961C982021F4BA1F008E7995 /* HJHeatMapView-example */ = {
+			isa = PBXGroup;
+			children = (
+				961C982121F4BA1F008E7995 /* AppDelegate.swift */,
+				961C982321F4BA1F008E7995 /* ViewController.swift */,
+				961C983321F4BA5C008E7995 /* HJHeatMapView.swift */,
+				961C982521F4BA1F008E7995 /* Main.storyboard */,
+				961C982821F4BA20008E7995 /* Assets.xcassets */,
+				96ADEDA621F897F4000130D1 /* map.jpg */,
+				96ADEDA421F89684000130D1 /* background.jpg */,
+				961C982A21F4BA20008E7995 /* LaunchScreen.storyboard */,
+				961C982D21F4BA20008E7995 /* Info.plist */,
+			);
+			path = "HJHeatMapView-example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961C981D21F4BA1F008E7995 /* HJHeatMapView-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961C983021F4BA20008E7995 /* Build configuration list for PBXNativeTarget "HJHeatMapView-example" */;
+			buildPhases = (
+				961C981A21F4BA1F008E7995 /* Sources */,
+				961C981B21F4BA1F008E7995 /* Frameworks */,
+				961C981C21F4BA1F008E7995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HJHeatMapView-example";
+			productName = "HJHeatMapView-example";
+			productReference = 961C981E21F4BA1F008E7995 /* HJHeatMapView-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961C981621F4BA1F008E7995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jae-Hyeon-Park";
+				TargetAttributes = {
+					961C981D21F4BA1F008E7995 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 961C981921F4BA1F008E7995 /* Build configuration list for PBXProject "HJHeatMapView-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961C981521F4BA1F008E7995;
+			productRefGroup = 961C981F21F4BA1F008E7995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961C981D21F4BA1F008E7995 /* HJHeatMapView-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961C981C21F4BA1F008E7995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961C982C21F4BA20008E7995 /* LaunchScreen.storyboard in Resources */,
+				96ADEDA521F89684000130D1 /* background.jpg in Resources */,
+				961C982921F4BA20008E7995 /* Assets.xcassets in Resources */,
+				961C982721F4BA1F008E7995 /* Main.storyboard in Resources */,
+				96ADEDA721F897F4000130D1 /* map.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961C981A21F4BA1F008E7995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961C982421F4BA1F008E7995 /* ViewController.swift in Sources */,
+				961C983421F4BA5C008E7995 /* HJHeatMapView.swift in Sources */,
+				961C982221F4BA1F008E7995 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		961C982521F4BA1F008E7995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961C982621F4BA1F008E7995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		961C982A21F4BA20008E7995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961C982B21F4BA20008E7995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961C982E21F4BA20008E7995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		961C982F21F4BA20008E7995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961C983121F4BA20008E7995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "HJHeatMapView-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hyun-je.HJHeatMapView-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		961C983221F4BA20008E7995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "HJHeatMapView-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hyun-je.HJHeatMapView-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961C981921F4BA1F008E7995 /* Build configuration list for PBXProject "HJHeatMapView-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961C982E21F4BA20008E7995 /* Debug */,
+				961C982F21F4BA20008E7995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961C983021F4BA20008E7995 /* Build configuration list for PBXNativeTarget "HJHeatMapView-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961C983121F4BA20008E7995 /* Debug */,
+				961C983221F4BA20008E7995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961C981621F4BA1F008E7995 /* Project object */;
+}
